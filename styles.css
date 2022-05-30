@@ -1,0 +1,37 @@
+html, body, .container-fluid {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#searchfield {
+    border-radius: 50px;
+}
+
+#advSearch {
+    background-color: rgb(174, 203, 250);
+    color: white;
+}
+
+#logoImg {
+    position: absolute;
+    left: 57%;
+    bottom: 0px;
+}
